@@ -11,6 +11,7 @@ public class StudentInformationSystem {
         int mark2 = 78;
 
         int total = mark1 + mark2;
+        double average = total / 2.0;
 
         System.out.println("STUDENT INFORMATION SYSTEM");
         System.out.println("--------------------------");
@@ -19,6 +20,7 @@ public class StudentInformationSystem {
         System.out.println("Mark 1: " + mark1);
         System.out.println("Mark 2: " + mark2);
         System.out.println("Total Marks: " + total);
+        System.out.println("Average Marks:"+ average);
 
         if (total >= 150) {
             System.out.println("Result: Excellent");
