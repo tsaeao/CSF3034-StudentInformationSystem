@@ -17,6 +17,7 @@ public class StudentInformationSystem {
         System.out.println("--------------------------");
         System.out.println("Student Name: " + studentName);
         System.out.println("Student ID: " + studentID);
+        System.out.println("University: UMT");
         System.out.println("Mark 1: " + mark1);
         System.out.println("Mark 2: " + mark2);
         System.out.println("Total Marks: " + total);
